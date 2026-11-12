@@ -1,0 +1,13 @@
+package com.dorcas.notions;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class NotionsServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NotionsServiceApplication.class, args);
+	}
+
+}
